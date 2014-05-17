@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Listapp",
+  "description": "Lets you see and add things to your lists.",
+  "version": "1.0.1",
+
+  "browser_action": {
+    "default_icon": "icon-16x16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "https://cryptic-shelf-2538.herokuapp.com/"
+  ],
+  "content_security_policy": "script-src 'self' https://cryptic-shelf-2538.herokuapp.com; object-src 'self'",
+  "icons": {
+    "16": "icon-16x16.png"
+  },
+  "background": {
+    "scripts": ["contextmenu.js"],
+    "persistent": false
+  }
+}
