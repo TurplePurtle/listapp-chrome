@@ -181,7 +181,7 @@ function attachHandlers() {
 
 document.addEventListener("DOMContentLoaded", function () {
     attachHandlers();
-    loadPath("/index");
+    loadPath("/");
 });
 
 document.addEventListener('linkcreated', function(e) {
