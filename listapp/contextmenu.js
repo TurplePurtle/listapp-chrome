@@ -28,7 +28,7 @@ function ajaxPost(url, params, callback) {
 
 
 var userdata = {
-    baseUrl: "https://cryptic-shelf-2538.herokuapp.com",
+    baseUrl: "https://getlili.herokuapp.com",
     csrfToken: null,
     valid: function() { return !!this.csrfToken },
     fetch: function() {

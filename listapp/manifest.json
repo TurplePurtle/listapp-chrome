@@ -3,7 +3,7 @@
 
   "name": "Listapp",
   "description": "Lets you see and add things to your lists.",
-  "version": "1.0.5",
+  "version": "1.0.6",
 
   "browser_action": {
     "default_icon": "icon-16x16.png",
@@ -11,9 +11,9 @@
   },
   "permissions": [
     "contextMenus",
-    "https://cryptic-shelf-2538.herokuapp.com/"
+    "https://getlili.herokuapp.com/"
   ],
-  "content_security_policy": "script-src 'self' https://cryptic-shelf-2538.herokuapp.com; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://getlili.herokuapp.com; object-src 'self'",
   "icons": {
     "16": "icon-16x16.png"
   },
