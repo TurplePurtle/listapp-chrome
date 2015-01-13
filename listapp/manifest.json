@@ -3,7 +3,7 @@
 
   "name": "Listapp",
   "description": "Lets you see and add things to your lists.",
-  "version": "1.0.6",
+  "version": "1.0.7",
 
   "browser_action": {
     "default_icon": "icon-16x16.png",
